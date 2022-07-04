@@ -19,28 +19,29 @@ while True:
 
     else:
         if user.upper() == computer.upper():
-            print("YOU DRAW: Play again/n")
-            continue
+             print("YOU DRAW: Play again/n")
+             continue
 
         elif (user.upper() == "R") and (computer.upper() == "S"):
                 print("YOU WON!!!")
                 break
 
         elif (user.upper() == "R") and (computer.upper() == "P"):
-            print("YOU LOOSE!!!")
-            break
+             print("YOU LOOSE!!!")
+             break
 
         elif (user.upper() == "P") and (computer.upper() == "S"):
-            print("YOU LOOSE!!!")
-            break
+             print("YOU LOOSE!!!")
+             break
 
         elif (user.upper() == "P") and (computer.upper() == "R"):
-            print("YOU WON!!!")
-            break
+             print("YOU WON!!!")
+             break
 
         elif (user.upper() == "S") and (computer.upper() == "P"):
-            print("YOU WON!!!")
-            break
+             print("YOU WON!!!")
+             break
+    
         elif (user.upper() == "S") and (computer.upper() == "R"):
-            print("YOU LOOSE!!!")
-            break     
+             print("YOU LOOSE!!!")
+             break     
